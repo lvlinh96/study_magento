@@ -1,0 +1,9 @@
+<?xml version="1.1"?>
+<config>
+ <modules>
+ <Lvlinh_Salestaff>
+ <active>true</active>
+ <codePool>local</codePool>
+ </Lvlinh_Salestaff>
+ </modules>
+</config>
