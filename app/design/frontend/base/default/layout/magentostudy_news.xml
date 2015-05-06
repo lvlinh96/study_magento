@@ -16,6 +16,11 @@
                 <prepare>true</prepare>
             </action>
         </reference>
+
+        <!-- Sidebar -->
+        <reference name="right">
+            <block type="magentostudy_news/sidebar" before="cart_sidebar" name="magentostudy_news.sidebar" template="magentostudy/news/sidebar.phtml"/>
+        </reference>
     </default>
 
     <magentostudy_news_index_index translate="label">

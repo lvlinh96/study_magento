@@ -188,4 +188,11 @@ Default layout, loads most of the pages
             <action method="setIsHandle"><applied>1</applied></action>
         </reference>
     </page_three_columns>
+
+    <reference name="content">
+        <action method="setTemplate"><template>page/1column.phtml</template></action>
+        <remove name="left" />
+        <remove name="right" />
+    </reference>
+
 </layout>
